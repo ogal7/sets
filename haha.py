@@ -40,7 +40,7 @@ def symDiff(L1,L2):
 
 def cartesianProd(L1,L2):
 	setS = [(L1[i],L2[i]) for i in range(len(L1))]
-	setS += [(L1[i], L2[i]) for i in range(len(L2))]
+	setS += [(L1[i], L2[i]) for i in range(len(L2))g]
 	return setS
 
 print union([1,2,3],[3,4,5])
